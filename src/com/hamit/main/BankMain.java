@@ -30,8 +30,16 @@ public class BankMain {
 	public static void main(String[] args) {
 
 		RegisterController controller = new RegisterController();
-		// boolean result = controller.searchRegisterDatabase();
-		boolean result = true;
+		boolean result = controller.searchRegisterDatabase();
+		// boolean result = true;
+
+		// user
+		// 1-) Para ekle
+		// 2-) Hesaptan para Çek
+		// 3-) Hesabımı sil
+		// 4-) Para listeleme (para çekmek) , Loglama
+		// 5-) Email gönder
+		//
 
 		while (true) {
 			if (result) {
