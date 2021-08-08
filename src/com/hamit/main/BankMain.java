@@ -8,7 +8,7 @@ import com.hamit.dto.RegisterDto;
 public class BankMain {
 
 	// controler
-
+ 
 	RegisterController controller = new RegisterController();
 
 	// create
